@@ -466,134 +466,158 @@
 			<canvas id="tempChart"></canvas>
 		</div>
 	</section>
-<!-- ======================================================
-     WHAT WAS DIFFERENT ABOUT HUNGA TONGA
-====================================================== -->
-<section class="difference-section">
-    <div class="difference-inner">
-        <h2 class="difference-title">What was so different about Hunga Tonga?</h2>
 
-        <p class="difference-text">
-            Unlike typical volcanic eruptions that cool the planet, Hunga Tonga blasted an
-            unprecedented amount of water vapour straight into the stratosphere, enough to 
-            temporarily alter Earth’s radiative balance. This wasn’t just an eruption; it was a 
-            climate-altering event outside the patterns scientists normally expect from volcanoes.
-        </p>
-    </div>
-<!-- ======================================================
-     ISOMETRIC — Volcano Steam vs Olympic Pools
-====================================================== -->
-<section class="iso-section">
+	<!-- ======================================================
+	     WHAT WAS DIFFERENT ABOUT HUNGA TONGA
+	====================================================== -->
+	<section class="difference-section">
+		<div class="difference-inner">
+			<h2 class="difference-title">What was so different about Hunga Tonga?</h2>
 
-	<!-- LEFT — Volcano -->
-	<div class="iso-left">
-		<div class="tooltip-wrapper">
-			<img src="/images/hunga_frames/steamw.jpeg" alt="Volcano" class="iso-volcano fade-in" />
-			<div class="tooltip">Steam released: 146,000,000,000 L</div>
+			<p class="difference-text">
+				Unlike typical volcanic eruptions that cool the planet, Hunga Tonga blasted an
+				unprecedented amount of water vapour straight into the stratosphere, enough to 
+				temporarily alter Earth’s radiative balance. This wasn’t just an eruption; it was a 
+				climate-altering event outside the patterns scientists normally expect from volcanoes.
+			</p>
 		</div>
-	</div>
-
-	<!-- RIGHT — 58 Pool Icons -->
-	<div class="iso-right">
-		{#each Array(58) as _, i}
-			<div class="tooltip-wrapper" style="animation-delay:{i * 0.03}s">
-				<img 
-					src="/images/hunga_frames/Pool.png"
-					alt="Pool Icon"
-					class="iso-pool fade-in"
-				/>
-				<div class="tooltip">2,500,000 L (per pool)</div>
-			</div>
-		{/each}
-	</div>
 	</section>
-<!-- ======================================================
-     LEGEND — Steam vs Pool Capacity
-====================================================== -->
-<section class="legend-section">
 
-	<h2 class="legend-title">Understanding the scale</h2>
+	<!-- ======================================================
+	     ISOMETRIC — Volcano Steam vs Olympic Pools
+	====================================================== -->
+	<section class="iso-section">
 
-	<p class="legend-subtext">
-		The eruption injected an extraordinary amount of water vapour into the atmosphere.
-		Here’s how the total volume compares to a standard Olympic-sized swimming pool.
-	</p>
-
-	<div class="legend-cards">
-
-		<!-- Steam Released -->
-		<div class="legend-card">
-			<h3>Steam released</h3>
-			<p class="legend-value">146,000,000,000 L</p>
-			<p class="legend-desc">
-				Estimated total water vapour injected into the stratosphere by the January 15 eruption.
-			</p>
+		<!-- LEFT — Volcano -->
+		<div class="iso-left">
+			<div class="tooltip-wrapper">
+				<img src="/images/hunga_frames/steamw.jpeg" alt="Volcano" class="iso-volcano fade-in" />
+				<div class="tooltip">Steam released: 146,000,000,000 L</div>
+			</div>
 		</div>
 
-		<!-- One Pool -->
-		<div class="legend-card">
-			<h3>One Olympic swimming pool</h3>
-			<p class="legend-value">2,500,000 L</p>
-			<p class="legend-desc">
-				Standard volume used for comparing large-scale water measurements.
-			</p>
+		<!-- RIGHT — 58 Pool Icons -->
+		<div class="iso-right">
+			{#each Array(58) as _, i}
+				<div class="tooltip-wrapper" style="animation-delay:{i * 0.03}s">
+					<img 
+						src="/images/hunga_frames/Pool.png"
+						alt="Pool Icon"
+						class="iso-pool fade-in"
+					/>
+					<div class="tooltip">2,500,000 L (per pool)</div>
+				</div>
+			{/each}
+		</div>
+	</section>
+
+	<!-- ======================================================
+	     LEGEND — Steam vs Pool Capacity
+	====================================================== -->
+	<section class="legend-section">
+
+		<h2 class="legend-title">Understanding the scale</h2>
+
+		<p class="legend-subtext">
+			The eruption injected an extraordinary amount of water vapour into the atmosphere.
+			Here’s how the total volume compares to a standard Olympic-sized swimming pool.
+		</p>
+
+		<div class="legend-cards">
+
+			<!-- Steam Released -->
+			<div class="legend-card">
+				<h3>Steam released</h3>
+				<p class="legend-value">146,000,000,000 L</p>
+				<p class="legend-desc">
+					Estimated total water vapour injected into the stratosphere by the January 15 eruption.
+				</p>
+			</div>
+
+			<!-- One Pool -->
+			<div class="legend-card">
+				<h3>One Olympic swimming pool</h3>
+				<p class="legend-value">2,500,000 L</p>
+				<p class="legend-desc">
+					Standard volume used for comparing large-scale water measurements.
+				</p>
+			</div>
+
 		</div>
 
-	</div>
+		<p class="legend-conclusion">
+			That means the eruption released the equivalent of <strong>58 Olympic pools</strong> of water vapour, shooting higher into the atmosphere than any eruption ever recorded.
+		</p>
 
-	<p class="legend-conclusion">
-		That means the eruption released the equivalent of <strong>58 Olympic pools</strong> of water vapour, shooting higher into the atmosphere than any eruption ever recorded.
-	</p>
+	</section>
+	<section class="comparison-section">
+    <h2 class="comparison-title">Was Hunga Tonga the biggest?</h2>
 
+    <p class="comparison-subtext">
+        A look at how the 2022 eruption compares to some of the most powerful volcanic
+        and explosive events in recorded history, measured in megatons of TNT.
+    </p>
+
+     <div class="comparison-image-wrapper">
+        <img src="/images/hunga_frames/COMPARISON.png" 
+             alt="Comparison of volcanic explosion energy"
+             class="comparison-image" />
+    </div>
+
+	<p class="legend-comparison">
+			Each ring represents <strong>10 TNT</strong> (a high explosive formed from toluene by substitution of three hydrogen atoms with nitro groups).
+		</p>
 </section>
-<!-- ============================
-     CONCLUSION SECTION
-============================ -->
-<section class="conclusion-section">
-    <h2 class="conclusion-title">A violent eruption, a planet-scale disturbance</h2>
 
-    <p class="conclusion-text">
-        The Hunga Tonga eruption wasn’t just another volcanic event. It rewrote the rules of 
-        how a single explosion can influence the atmosphere. By blasting an extraordinary 
-        amount of water vapour into the stratosphere and beyond, the volcano created effects 
-        normally seen only in climate-changing geological events.
-    </p>
 
-    <p class="conclusion-text">
-        The shockwaves circled the planet. Satellites recorded atmospheric ripples stretching 
-        across oceans. And the excess moisture trapped enough heat to register a measurable 
-        rise in global temperature, a rare outcome, since major eruptions usually cool the planet instead.
-    </p>
+	<!-- ============================
+	     CONCLUSION SECTION
+	============================ -->
+	<section class="conclusion-section">
+		<h2 class="conclusion-title">A violent eruption, a planet-scale disturbance</h2>
 
-    <p class="conclusion-text">
-        What unfolded in January 2022 is now regarded as one of the strongest natural atmospheric 
-        disturbances in modern history. It was brief, but it left fingerprints across the 
-        atmosphere, the climate system, and global scientific records.
-    </p>
+		<p class="conclusion-text">
+			The Hunga Tonga eruption wasn’t just another volcanic event. It rewrote the rules of 
+			how a single explosion can influence the atmosphere. By blasting an extraordinary 
+			amount of water vapour into the stratosphere and beyond, the volcano created effects 
+			normally seen only in climate-changing geological events.
+		</p>
 
-    <p class="conclusion-text">
-        Hunga Tonga didn’t just erupt. <br />
-        It <strong>reset</strong> what we thought a volcano could do.
-    </p>
-</section>
+		<p class="conclusion-text">
+			The shockwaves circled the planet. Satellites recorded atmospheric ripples stretching 
+			across oceans. And the excess moisture trapped enough heat to register a measurable 
+			rise in global temperature, a rare outcome, since major eruptions usually cool the planet instead.
+		</p>
+
+		<p class="conclusion-text">
+			What unfolded in January 2022 is now regarded as one of the strongest natural atmospheric 
+			disturbances in modern history. It was brief, but it left fingerprints across the 
+			atmosphere, the climate system, and global scientific records.
+		</p>
+
+		<p class="conclusion-text">
+			Hunga Tonga didn’t just erupt. <br />
+			It <strong>reset</strong> what we thought a volcano could do.
+		</p>
+	</section>
 
 </div>
 
 <style>
 	/* GLOBAL BACKGROUND COLOR */
-body {
-	background: #F4F4F5;
-}
+	body {
+		background: #F4F4F5;
+	}
 
-/* Ensure the page container doesn't override body background */
-.page-container {
-	background: transparent;
-}
+	/* Ensure the page container doesn't override body background */
+	.page-container {
+		background: transparent;
+	}
 
-/* The intro screen stays white intentionally */
-.intro-screen {
-	background: white;
-}
+	/* The intro screen stays white intentionally */
+	.intro-screen {
+		background: white;
+	}
 
 	/* INTRO OVERLAY */
 	.intro-screen {
@@ -902,240 +926,276 @@ body {
 			height: 360px;
 		}
 	}
+
 	/* DIFFERENCE SECTION */
-.difference-section {
-    margin: 8rem auto 8rem;
-    padding: 0 1.5rem;
-}
+	.difference-section {
+		margin: 8rem auto 8rem;
+		padding: 0 1.5rem;
+	}
 
-.difference-inner {
-    max-width: 800px;
-    margin: 0 auto;
-}
+	.difference-inner {
+		max-width: 800px;
+		margin: 0 auto;
+	}
 
-.difference-title {
+	.difference-title {
+		font-size: 2.2rem;
+		font-weight: 700;
+		color: #111;
+		margin-bottom: 1.2rem;
+	}
+
+	.difference-text {
+		font-size: 1.15rem;
+		line-height: 1.75;
+		color: #333;
+	}
+
+	/* ======================================================
+	   ISOMETRIC SECTION LAYOUT
+	====================================================== */
+
+	.iso-section {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		gap: 4rem;
+		padding: 6rem 1.5rem;
+		max-width: 1400px;
+		margin: 0 auto 0.02rem;
+	}
+
+	/* LEFT SIDE — volcano */
+	.iso-left {
+		flex: 1;
+		display: flex;
+		justify-content: center;
+	}
+
+	.iso-volcano {
+		width: 100%;
+		max-width: 420px;
+		object-fit: contain;
+	}
+
+	/* RIGHT SIDE — grid of pools */
+	.iso-right {
+		flex: 1.4;
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(75px, 1fr));
+		gap: 14px;
+	}
+
+	/* Pool icon */
+	.iso-pool {
+		width: 100%;
+		object-fit: contain;
+		opacity: 0.95;
+		pointer-events: auto;
+	}
+
+	/* ======================================================
+	   FADE-IN + STAGGER ANIMATION
+	====================================================== */
+	.fade-in {
+		opacity: 0;
+		transform: translateY(14px);
+		animation: fadeRise 0.6s ease forwards;
+	}
+
+	@keyframes fadeRise {
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+
+	/* Stagger applied via inline style: animation-delay */
+
+	/* ======================================================
+	   TOOLTIP STYLING
+	====================================================== */
+
+	.tooltip-wrapper {
+		position: relative;
+		display: inline-block;
+	}
+
+	/* Tooltip box */
+	.tooltip {
+		position: absolute;
+		bottom: 110%;
+		left: 50%;
+		transform: translateX(-50%);
+		background: rgba(0,0,0,0.78);
+		color: white;
+		padding: 6px 10px;
+		font-size: 0.85rem;
+		border-radius: 8px;
+		opacity: 0;
+		pointer-events: none;
+		white-space: nowrap;
+		transition: opacity 0.2s ease;
+		z-index: 5;
+	}
+
+	/* Show on hover */
+	.tooltip-wrapper:hover .tooltip {
+		opacity: 1;
+	}
+
+	/* Small arrow */
+	.tooltip::after {
+		content: "";
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		transform: translateX(-50%);
+		border-width: 6px;
+		border-style: solid;
+		border-color: rgba(0,0,0,0.78) transparent transparent transparent;
+	}
+
+	/* ======================================================
+	   RESPONSIVE
+	====================================================== */
+
+	@media (max-width: 700px) {
+		.iso-section {
+			flex-direction: column;
+			align-items: center;
+			gap: 2rem;
+		}
+
+		.iso-right {
+			grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+			gap: 10px;
+		}
+	}
+
+	/* ======================================================
+	   LEGEND SECTION
+	====================================================== */
+
+	.legend-section {
+		max-width: 900px;
+		margin: 0.1rem auto 0.1rem;
+		padding: 1.5rem;
+		text-align: left;
+	}
+
+	.legend-title {
     font-size: 2.2rem;
     font-weight: 700;
-    color: #111;
     margin-bottom: 1.2rem;
 }
 
-.difference-text {
-    font-size: 1.15rem;
-    line-height: 1.75;
-    color: #333;
-}
-/* ======================================================
-   ISOMETRIC SECTION LAYOUT
+	.legend-subtext {
+		font-size: 1.1rem;
+		line-height: 1.7;
+		color: #444;
+		margin-bottom: 2.5rem;
+	}
+
+	.legend-cards {
+		display: flex;
+		gap: 2rem;
+		margin-bottom: 2.5rem;
+		flex-wrap: wrap;
+	}
+
+	.legend-card {
+		flex: 1;
+		min-width: 260px;
+		background: rgba(255,255,255,0.75);
+		backdrop-filter: blur(10px);
+		padding: 1.8rem 2rem;
+		border-radius: 14px;
+		box-shadow: 0 12px 35px rgba(0,0,0,0.1);
+		border: 1px solid rgba(255,255,255,0.5);
+	}
+
+	.legend-card h3 {
+		font-size: 1.3rem;
+		font-weight: 700;
+		margin-bottom: 0.4rem;
+	}
+
+	.legend-value {
+		font-size: 1.8rem;
+		font-weight: 700;
+		color: #000;
+		margin-bottom: 0.8rem;
+	}
+
+	.legend-desc {
+		font-size: 1rem;
+		color: #444;
+		line-height: 1.6;
+	}
+
+	/* ======================================================
+   COMPARISON SECTION
 ====================================================== */
 
-.iso-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 4rem;
-    padding: 6rem 1.5rem;
-    max-width: 1400px;
-    margin: 0 auto 0.02rem;
+.comparison-section {
+    max-width: 960px;
+    margin: 6rem auto 8rem;
+    padding: 0 1.5rem;
+    text-align: left;
 }
 
-/* LEFT SIDE — volcano */
-.iso-left {
-    flex: 1;
+.comparison-title {
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 1rem;
+}
+
+.comparison-subtext {
+    font-size: 1.15rem;
+    line-height: 1.75;
+    color: #444;
+    margin-bottom: 2.5rem;
+    max-width: 760px;
+}
+
+.comparison-image-wrapper {
     display: flex;
     justify-content: center;
 }
 
-.iso-volcano {
+.comparison-image {
     width: 100%;
-    max-width: 420px;
-    object-fit: contain;
-}
-
-/* RIGHT SIDE — grid of pools */
-.iso-right {
-    flex: 1.4;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(75px, 1fr));
-    gap: 14px;
-}
-
-/* Pool icon */
-.iso-pool {
-    width: 100%;
-    object-fit: contain;
-    opacity: 0.95;
-    pointer-events: auto;
-}
-
-/* ======================================================
-   FADE-IN + STAGGER ANIMATION
-====================================================== */
-.fade-in {
-    opacity: 0;
-    transform: translateY(14px);
-    animation: fadeRise 0.6s ease forwards;
-}
-
-@keyframes fadeRise {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-/* Stagger applied via inline style: animation-delay */
-
-/* ======================================================
-   TOOLTIP STYLING
-====================================================== */
-
-.tooltip-wrapper {
-    position: relative;
-    display: inline-block;
-}
-
-/* Tooltip box */
-.tooltip {
-    position: absolute;
-    bottom: 110%;
-    left: 50%;
-    transform: translateX(-50%);
-    background: rgba(0,0,0,0.78);
-    color: white;
-    padding: 6px 10px;
-    font-size: 0.85rem;
+    max-width: 1000px;
+    height: auto;
     border-radius: 8px;
-    opacity: 0;
-    pointer-events: none;
-    white-space: nowrap;
-    transition: opacity 0.2s ease;
-    z-index: 5;
+    box-shadow: 0 10px 38px rgba(0,0,0,0.18);
 }
-
-/* Show on hover */
-.tooltip-wrapper:hover .tooltip {
-    opacity: 1;
-}
-
-/* Small arrow */
-.tooltip::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    border-width: 6px;
-    border-style: solid;
-    border-color: rgba(0,0,0,0.78) transparent transparent transparent;
-}
-
-/* ======================================================
-   RESPONSIVE
-====================================================== */
-
-@media (max-width: 700px) {
-    .iso-section {
-        flex-direction: column;
-        align-items: center;
-        gap: 2rem;
-    }
-
-    .iso-right {
-        grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
-        gap: 10px;
-    }
-}
-/* ======================================================
-   LEGEND SECTION
-====================================================== */
-
-.legend-section {
-    max-width: 900px;
-    margin: 0.1rem auto 0.1rem;
-    padding: 1.5rem;
-    text-align: left;
-}
-
-.legend-title {
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    color: #111;
-}
-
-.legend-subtext {
-    font-size: 1.1rem;
-    line-height: 1.7;
-    color: #444;
-    margin-bottom: 2.5rem;
-}
-
-.legend-cards {
-    display: flex;
-    gap: 2rem;
-    margin-bottom: 2.5rem;
-    flex-wrap: wrap;
-}
-
-.legend-card {
-    flex: 1;
-    min-width: 260px;
-    background: rgba(255,255,255,0.75);
-    backdrop-filter: blur(10px);
-    padding: 1.8rem 2rem;
-    border-radius: 14px;
-    box-shadow: 0 12px 35px rgba(0,0,0,0.1);
-    border: 1px solid rgba(255,255,255,0.5);
-}
-
-.legend-card h3 {
-    font-size: 1.3rem;
-    font-weight: 700;
-    margin-bottom: 0.4rem;
-}
-
-.legend-value {
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: #000;
-    margin-bottom: 0.8rem;
-}
-
-.legend-desc {
-    font-size: 1rem;
-    color: #444;
-    line-height: 1.6;
-}
-
-.legend-conclusion {
-    margin-top: 2rem;
-    font-size: 1.2rem;
-    color: #222;
-    line-height: 1.75;
-}
-/* ============================
-   CONCLUSION SECTION
-============================ */
+	.legend-conclusion {
+		margin-top: 2rem;
+		font-size: 1.15rem;
+		line-height: 1.75;
+		color: #222;
+	}
+/* Force the conclusion section back to centered alignment */
 .conclusion-section {
-    max-width: 800px;
-    margin: 8rem auto 8rem;
-    padding: 0 1.5rem;
+    text-align: center;
+}
+
+.conclusion-section h2 {
+    text-align: center;
+}
+
+.conclusion-section p {
     text-align: left;
+	font-size: 1.15rem;
+		line-height: 1.75;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 760px;
 }
 
-.conclusion-title {
-    font-size: 2.2rem;
-    font-weight: 700;
-    margin-bottom: 1.8rem;
-    color: #111;
-}
 
-.conclusion-text {
-    font-size: 1.15rem;
-    line-height: 1.75;
-    color: #333;
-    margin-bottom: 1.4rem;
-}
 </style>
 
