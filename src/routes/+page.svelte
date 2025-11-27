@@ -366,20 +366,21 @@
 	<!-- ======================================================
 	     SEQUENCE SECTION
 	     ====================================================== -->
-	<section class="sequence-wrapper">
-		<div class="sequence-sticky">
-			<canvas
-				bind:this={seqCanvas}
-				width={1200}
-				height={1200}
-				class="sequence-canvas"
-			></canvas>
+<section class="sequence-wrapper">
+    <div class="sequence-sticky">
+        <canvas
+            bind:this={seqCanvas}
+            width={900}
+            height={900}
+            class="sequence-canvas"
+        ></canvas>
 
-			<div class="sequence-caption">
-				Satellite reconstruction of the eruption sequence
-			</div>
-		</div>
-	</section>
+        <div class="sequence-caption">
+            Satellite reconstruction of the eruption sequence
+        </div>
+    </div>
+</section>
+
 
 	<section class="post-sequence-text">
 		<p>
@@ -720,7 +721,7 @@
 	/* CHAPTER INTRO */
 	.chapter-intro {
 		max-width: 800px;
-		margin: 14rem auto 6rem;
+		margin: 14rem auto 8rem;
 		padding: 0 1.5rem;
 	}
 
@@ -734,9 +735,12 @@
 
 	/* SEQUENCE SECTION */
 	.sequence-wrapper {
-		height: 600vh;
-		margin-top: 6rem;
-	}
+    height: 420vh; /* reduced from 600vh */
+    margin-top: 8rem; 
+    padding-top: 4rem;
+    padding-bottom: 6rem; /* gives space below */
+}
+
 
 	.sequence-sticky {
 		position: sticky;
@@ -749,10 +753,11 @@
 	}
 
 	.sequence-canvas {
-		width: min(70vw, 900px);   /* larger on big screens, but still bounded */
-		max-width: 100%;
-		object-fit: contain;
-	}
+    width: min(55vw, 650px);
+    max-width: 100%;
+    object-fit: contain;
+}
+
 
 	.sequence-caption {
 		margin-top: 2rem;
@@ -763,7 +768,7 @@
 
 	.post-sequence-text {
 		max-width: 800px;
-		margin: 2rem auto 2rem;
+		margin: 4rem auto 3rem;
 		padding: 0 1.5rem;
 		font-size: 1.15rem;
 		line-height: 1.75;
@@ -903,8 +908,9 @@
 		}
 
 		.sequence-canvas {
-			width: 80vw;
-		}
+    width: min(55vw, 650px);
+}
+
 
 		.fact-section {
 			height: 110vh;
